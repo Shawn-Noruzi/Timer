@@ -14,6 +14,7 @@
 		387A90E61E6D0B6800F0E2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387A90E41E6D0B6800F0E2DB /* LaunchScreen.storyboard */; };
 		387A90F11E6D0B6800F0E2DB /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A90F01E6D0B6800F0E2DB /* TimerTests.swift */; };
 		387A90FC1E6D0B6800F0E2DB /* TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A90FB1E6D0B6800F0E2DB /* TimerUITests.swift */; };
+		387A91121E6DEBB900F0E2DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A91111E6DEBB900F0E2DB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		387A90F71E6D0B6800F0E2DB /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387A90FB1E6D0B6800F0E2DB /* TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUITests.swift; sourceTree = "<group>"; };
 		387A90FD1E6D0B6800F0E2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387A91111E6DEBB900F0E2DB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				387A90DB1E6D0B6800F0E2DB /* AppDelegate.swift */,
 				387A90DD1E6D0B6800F0E2DB /* ViewController.swift */,
+				387A91111E6DEBB900F0E2DB /* SecondViewController.swift */,
 				387A90DF1E6D0B6800F0E2DB /* Main.storyboard */,
 				387A90E21E6D0B6800F0E2DB /* Assets.xcassets */,
 				387A90E41E6D0B6800F0E2DB /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387A91121E6DEBB900F0E2DB /* SecondViewController.swift in Sources */,
 				387A90DE1E6D0B6800F0E2DB /* ViewController.swift in Sources */,
 				387A90DC1E6D0B6800F0E2DB /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				387A91021E6D0B6800F0E2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		387A91031E6D0B6800F0E2DB /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				387A91051E6D0B6800F0E2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		387A91061E6D0B6800F0E2DB /* Build configuration list for PBXNativeTarget "TimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				387A91081E6D0B6800F0E2DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
